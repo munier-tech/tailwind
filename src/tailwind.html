@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital
+,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..
+900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;
+0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;
+1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class=" font-[poppins] " >
+   <div class="container  m-auto w-[90%]">
+    <div>
+  <header class="border-b h-[3rem]">
+    <div class="flex mt-4 justify-between items-center">
+      <div class="nav-link md:static absolute  text-[1rem] font-[500] flex items md:top-0 center md:min-h-fit gap-10 w-full md:w-auto min-h-[60vh] left-0 top-[-100%] z-10 ">
+        <ul class="nav-link w-full md:flex-row flex md:gap-5 md:bg-white bg-white md:top-0  md:items-center gap-6">
+          <li><a class="hover:text-gray-300" href="#">Women</a></li>
+          <li><a class="hover:text-gray-300" href="#">Men</a></li>
+          <li><a class="hover:text-gray-300" href="#">Company</a></li>
+          <li><a class="hover:text-gray-300" href="#">Stores</a></li>
+      
+      </ul>
+      </div>
+      <div class="mt-2 md:hidden ">
+        <ion-icon onclick="onToggleMenu(this)" class="text-3xl md:hidden cursor-pointer" name="menu"></ion-icon>
+      </div>
+      
+<div class="w-[50px]">
+  <img class="w-[80%]" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+</div>
+ <div class="right-section  w-[20rem] items-center gap-10 flex">
+<div class="flag flex gap-2">
+<img class="w-[20px] " src= "https://tailwindui.com/plus/img/flags/flag-canada.svg" alt="">
+<h1 class="text-sm font-500">CAD</h1>
+</div>
+  <div>
+  <svg class="w-[25px] items-center " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="oo sw"><path stroke-linecap="round" 
+    stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path></svg>
+  </div>
+  <div>
+    <svg class="w-[25px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="oo sw"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 
+      7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"></path></svg>
+    </div>
+    <div class="flex items-center">
+      <svg class="w-[25px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="oo sw vh azc btl"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119
+         1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"></path></svg>
+         <h1 class="ml-2">
+          
+         </h1>
+    </div>
+</div>
+</div>
+</header>
+
+<section>
+<div class="hero-section grid grid-cols-1 pr-10-11 gap-6 mt-4 md:grid-cols-[60%,40%] ">
+<div class="img-section grid-rows-2 ">
+  <img class=" w-full rounded-xl" src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-featured-product-shot.jpg" alt="">
+  <nav class="flex mt-5 justify-between">
+    <img class="rounded-xl w-[48%]" src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-product-shot-01.jpg" alt="">
+    <img class="rounded-xl w-[48%]" src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-product-shot-02.jpg" alt="">
+    
+  </nav>
+</div>
+  
+<div class="details w-[100%]  ">
+  <div class="price-tag flex justify-between gap-[22rem] text-xl font-[500] ">
+    <h1>
+      Basic Tee
+    </h1>
+    <p class="">
+      $35
+    </p>
+  </div>
+  <br>
+  <div class="flex items-center">
+    <h1>
+      3.9
+    </h1>
+    <div class="w-[6rem] gap-1 ml-2  flex pb-1">
+    <img class="w-[18PX]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[18PX]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[18PX]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[18PX]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[18PX] h-4 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 204311.jpg" alt="">
+  </div>
+  <div aria-hidden="true" class="ml-6">·</div>
+    <div class="items-center ml-6 pb-1 text-blue-700 cursor-pointer hover:text-blue-500">
+    <h1>
+      see all 512 reviews
+    </h1>
+  </div>
+  
+  </div>
+  <p class="mt-10">Color</p>
+  <div class="circles flex gap-2 mt-3 ">
+    <div class="bg-black h-8 w-8  border-black  rounded-full"></div>
+    <span aria-hidden="true" class="bg-gray-400 h-8 w-8 border-black  rounded-full"></span>
+  </div>
+  <br>
+  <br>
+  <div class="size-section ">
+   <div class="flex md:gap-[24rem] gap-[13rem]">
+    <h1>Size</h1>
+    <h1 class="text-blue-700 hover:text-blue-500">See sizing chart</h1>
+   </div>
+   <nav class="grid grid-cols-3 gap-4 mt-3 md:grid md:grid-cols-6">
+    <div class=" p-3  h-12 w-26 md:w-20 border text-center rounded-md bg-violet-700 text-white hover:bg-violet-800 transition-all cursor-pointer">XXS</div>
+    <div class=" p-3  h-12 w-26 md:w-20 border text-center rounded-md hover:bg-gray-50 transition-all cursor-pointer">XS</div>
+    <div class=" p-3  h-12 w-26 md:w-20 border text-center rounded-md hover:bg-gray-50 transition-all cursor-pointer">S</div>
+    <div class=" p-3  h-12 w-26 md:w-20 border text-center rounded-md hover:bg-gray-50 transition-all cursor-pointer">M</div>
+    <div class=" p-3  h-12 w-26 md:w-20 border text-center rounded-md hover:bg-gray-50 transition-all cursor-pointer">L</div>
+    <div class=" p-3  h-12 w-26 border-gray-300 text-gray-300 text-center rounded-md hover:bg-gray-50 transition-all cursor-not-allowed">XL</div>
+   </nav>
+   <div class="mt-6 flex">
+    <button class="w-[100%] md:w-[100%]   h-12 bg-violet-700 hover:bg-violet-600 text-white rounded-md ">
+      Add to cart
+    </button>
+   </div>
+  </div>
+ 
+   <nav class="w-[25rem] md:w-[35rem] mt-7 border-b">
+    <p>Describtion</p>
+    <br>
+    <h1 class=" text-sm mb-9 text-gray-500">
+      <span class="w-[30rem]">The Basic tee is an honest new take on a classic. The tee uses super soft, pre-shrunk cotton for true comfort and a dependable fit. They are hand cut and sewn locally,
+       with a special dye technique that gives each tee it's own look.
+      </span>
+       <br>
+       <br>
+      Looking to stock your closet? The Basic tee also comes in a 3-pack or 5-pack at a bundle discount.
+    </h1>
+   </nav>
+
+     <nav class="mt-4">
+      <h1>
+        Fabric & care
+      </h1>
+      <div class="text-gray-500  text-sm mt-3 ml-3">
+          <li class="m-2">Only the best materials</li>
+          <li class="m-2">Ethically and locally made</li>
+          <li class="m-2">Pre-washed and pre-shrunk</li>
+          <li class="m-2">Machine wash cold with similar colors</li>
+      </div>
+      <div class="mt-10 grid grid-cols-1 md:grid  md:grid-cols-2 gap-3">
+        <span class="border h-[8rem] md:w-[15rem] p-[24px] text-center    w-full bg-gray-50 rounded-md">
+          <a href="#"><i class="fa-regular fa-earth-americas"></i></a>
+          <p class="text-sm mt-1">International delivery</p>
+          <h1 class="text-sm mt-1">Get your order in 2 years</h1>
+        </span>
+        <span class="border h-[8rem] md:w-[15rem] p-[24px] text-center    w-full bg-gray-50 rounded-md">
+          <a href="#"><i class="fa-light fa-circle-dollar"></i></a>
+          <p class="text-sm mt-1">International delivery</p>
+          <h1 class="text-sm mt-1">Get your order in 2 years</h1>
+        </span>
+      </div>
+     </nav>
+</div>
+</div>
+</section>
+</div>
+<nav class="grid-rows-1 mt-[8rem]">
+  <h1 class="mb-6 text-xl font-[600]">
+    Recent reviews
+  </h1>
+  <div class="border-t md:grid-cols-[20%,20%,50%]  grid justify-between">
+      <div class="mt-6">
+        <h1>Risako M</h1>
+        <br>
+        <p class="text-gray-400">May 16, 2021</p>
+      </div>
+      <div class="w-[20%] gap-1 ml-2  h-6 flex m-7">
+        <img class="w-[19px] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+        <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+        <img class="w-[19PX] h-6 pt-[0.20rem]"  src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+        <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+        <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+        <h1 class="ml-3 mt-1 text-sm">5</h1>
+      </div>
+      <div class="w-[100%] md:w-[80%] my-6">
+        <h1 class="font-[500]">Can't say enough good things</h1>
+        <br>
+        <p class="text-gray-500 text-sm">
+          I was really pleased with the overall shopping experience. My order even included a little personal,
+           handwritten note, which delighted <br>me!<br> <br>  
+             The product quality is amazing, it looks and feel even better than I had anticipated. Brilliant stuff! I would gladly recommend this store to my friends. And, now that I think of it... I actually have, many times!
+        </p>
+      </div>
+  </div>
+  <div class="border-t  md:grid-cols-[20%,20%,50%]  grid justify-between">
+    <div class="mt-6">
+      <h1>Jackie H</h1>
+      <br>
+      <p class="text-gray-400">April 6, 2021</p>
+    </div>
+    <div class="w-[20%] gap-1 ml-2  h-6 flex m-7">
+      <img class="w-[19px] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+      <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+      <img class="w-[19PX] h-6 pt-[0.20rem]"  src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+      <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+      <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+      <h1 class="ml-3 mt-1 text-sm">5</h1>
+    </div>
+    <div class="w-[100%] md:w-[100%] my-6">
+      <h1 class="font-[500]">Very comfy and looks the part</h1>
+      <br>
+      <p class="text-gray-500 text-sm">
+        After a quick chat with customer support, I had a good feeling about this shirt and ordered three of them. <br>
+        <br>
+        Less than 48 hours later, my delivery arrived. I haven't worn anything else since that day! These shirts are so comfortable, 
+        yet look classy enough that I can wear them at work or even some formal events. Winning!
+      </p>
+    </div>
+</div>
+<div class="border-y  md:grid-cols-[20%,20%,50%]  grid justify-between">
+  <div class="mt-6">
+    <h1>Laura G</h1>
+    <br>
+    <p class="text-gray-400">February 24, 2021</p>
+  </div>
+  <div class="w-[20%] gap-1 ml-2  h-6 flex m-7">
+    <img class="w-[19px] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[19PX] h-6 pt-[0.20rem]"  src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[19PX] h-6 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 201717.jpg" alt="">
+    <img class="w-[18PX] mt-[0.20rem] h-5 pt-[0.20rem]" src="../imgs/Screenshot 2024-11-02 204311.jpg" alt="">
+    <h1 class="ml-3 mt-1 text-sm">4</h1>
+  </div>
+  <div class="w-[100%] md:w-[100%] my-6">
+    <h1 class="font-[500]">The last shirts I may ever need</h1>
+    <br>
+    <p class="text-gray-500 text-sm">
+      I bought two of those comfy cotton shirts, and let me tell you: they're amazing! 
+      I have been wearing them almost every day. Even after a dozen of washes, that still
+       looks and feel good as new
+      . Will definitely order a few more... If I ever need to!
+    </p>
+  </div>
+</div>
+</nav>
+<nav class="mt-20 border-b">
+  <div>
+    <h1>
+      Customers also purchased
+    </h1>
+    <nav class="grid   grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 py-4 mb-2">
+    <div class="w-[20rem] my-5 grid-rows-3">
+      <img class="w-[95%] static rounded-xl hover:opacity-[0.5] transition-all" src="../imgs/Screenshot 2024-11-04 213409.jpg" alt="">
+      <div class="flex justify-between ">
+        <nav>
+       <h1 class="text-sm mt-3  ">
+        Basic Tee
+       </h1>
+       <p class="text-sm text-gray-500 ">
+        Aspen white
+       </p>
+      </nav>
+      <nav class="mt-2 mr-4">
+        $35
+      </nav>
+      </div>
+    </div>
+    <div class="w-[20rem] my-5 grid-rows-3">
+      <img class="w-[95%] static rounded-xl hover:opacity-[0.5] transition-all" src="../imgs/Screenshot 2024-11-04 213135.jpg" alt="">
+      <div class="flex justify-between ">
+        <nav>
+       <h1 class="text-sm mt-3 ">
+        Basic Tee
+       </h1>
+       <p class="text-sm text-gray-500 ">
+        Aspen white
+       </p>
+      </nav>
+      <nav class="mt-2 mr-4">
+        $35
+      </nav>
+      </div>
+    </div>
+    <div class="w-[20rem] my-5 grid-rows-3">
+      <img class="w-[95%] xl:sticky rounded-xl hover:opacity-[0.5] transition-all" src="../imgs/Screenshot 2024-11-04 213119.jpg" alt="">
+      <div class="flex justify-between ">
+        <nav>
+       <h1 class="text-sm mt-3 ">
+        Basic Tee
+       </h1>
+       <p class="text-sm text-gray-500 ">
+        Aspen white
+       </p>
+      </nav>
+      <nav class="mt-2 mr-4">
+        $35
+      </nav>
+      </div>
+    </div>
+    <div class="w-[20rem] sticky my-5 grid-rows-3 cursor-pointer">
+      <img class="w-[95%] rounded-xl hover:opacity-[0.5] transition-all " src="../imgs/Screenshot 2024-11-04 213135.jpg" alt="">
+      <div class="flex justify-between ">
+        <nav>
+       <h1 class="text-sm mt-3 ">
+        Basic Tee
+       </h1>
+       <p class="text-sm text-gray-500 ">
+        Aspen white
+       </p>
+      </nav>
+      <nav class="mt-2 mr-4">
+        $35
+      </nav>
+      </div>
+    </div>
+  </nav>
+  </div>
+</nav>
+
+   <footer class="mt-10 p-[54px]">
+    <nav class="grid   grid-cols-1 sm:grid-cols-2 sm:text-wrap lg:grid-cols-[10%,40%,50%] gap-10 py-4 mb-2">
+      <div class=" w-[50px]">
+     <img class="w-full" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+      </div>
+      <div class="flex  gap-20 ">
+        <div class="grid gap-4 text-sm ">
+          <h1>Products</h1>
+          <a class="text-gray-500" href="">bags</a>
+          <a class="text-gray-500" href="">Tees</a>
+          <a class="text-gray-500" href="">Objects</a>
+          <a class="text-gray-500" href="">Home Goods</a>
+          <a class="text-gray-500" href="">Accesories</a>
+        </div>
+        <div class="grid gap-4 text-sm">
+          <h1>Company</h1>
+          <a class="text-gray-500" href="">Who we are</a>
+          <a class="text-gray-500" href="">Sustainability</a>
+          <a class="text-gray-500" href="">Press</a>
+          <a class="text-gray-500" href="">Careers</a>
+          <a class="text-gray-500" href="">Terms & Conditions</a>
+          <a class="text-gray-500" href="">Privacy</a>
+        </div>
+        <div class="grid gap-4 text-sm">
+          <h1>Customer</h1>
+          <a class="text-gray-500" href="">Contact</a>
+          <a class="text-gray-500" href="">Shipping</a>
+          <a class="text-gray-500" href="">Return</a>
+          <a class="text-gray-500" href="">Warranty</a>
+          <a class="text-gray-500" href="">Secure Payment</a>
+          <a class="text-gray-500" href="">FAQ</a>
+          <a class="text-gray-500" href="">Find a store</a>
+        </div>
+      </div>
+       <nav class="w-[50%] ml-[7rem]">
+        <div>
+          <h1>Sign up for our newsletter
+          </h1>
+          <div class="flex gap-3">
+          <input class="border  h-[35px] w-[23rem]" type="email" placeholder="hello">
+          <button class="bg-blue-600 h-[35px] w-[5rem] text-white">
+            hello            
+          </button>
+        </div>
+        </div>
+       </nav>
+    </nav>
+   </footer>
+</div>
+
+  <script>
+   function onToggleMenu (e) {
+    const navLinks = document.querySelector('.nav-link')
+     e.name = e.name === 'menu' ? 'heart' : 'menu'
+     navLinks.classList.toggle('top-[50%]')
+   }
+  </script>
+
+
+</body>
+</html>
